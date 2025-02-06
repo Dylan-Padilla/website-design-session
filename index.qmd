@@ -196,7 +196,7 @@ A dynamic website is one that changes or customizes itself frequently and automa
 ![](imgs/html.png){width=30%}
 </center>
 
-**Hypertext Markup Language (HTML)** is the standard markup language[a] for documents designed to be displayed in a web browser
+**Hypertext Markup Language (HTML)** is the standard markup language for documents designed to be displayed in a web browser
 
 
 ## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
