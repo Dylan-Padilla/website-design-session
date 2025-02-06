@@ -1,0 +1,348 @@
+---
+title: 'Web Design Session: Basic Principles'
+author: "<br>Dylan Padilla<br><br><img src='imgs/prog.lang.webp' width=500px height=250/><br>"
+institute: "<br>Yale School of the Environment<br>Yale Institute for Biospheric Studies<br>New Haven, Connecticut"
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    logo: imgs/yale-logo.png
+    footer: "🔗 [https://dylanpadilla.netlify.app/](https://dylanpadilla.netlify.app/)"
+    slide-number: true
+    multiplex: true
+    theme: [simple, assets/monash.scss]
+    show-slide-number: all
+    controls: true
+    width: 1280
+    height: 720
+    css: [assets/syntax-highlight.css, assets/custom.css, assets/pacman.css]
+    header-includes: |
+      <link rel="stylesheet" href="">
+execute:
+  echo: true
+---
+
+## [Outline]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br>
+
+### [What is a website?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+- features
+- why is it important to have one?
+- let's build our own
+
+
+## [Outline]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br>
+
+### [What is a website?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+features <br>
+
+why is it important to have one? <br>
+
+let's build our own <br>
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+### [From scratch]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+- HTML and CSS for websites
+
+:::
+
+::: {.column width='50%'}
+
+### [Site generator]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+- Hugo themes and R
+- GitHub for hosting and Netlify to go live
+
+:::
+
+::::
+
+## [What is a website?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+To understand the definition of a website, we must know what a **webpage** is...
+
+
+## [What is a website?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+To understand the definition of a website, we must know what a **webpage** is...
+
+<br>
+
+*A **webpage** is a document on the Web that is accessed in a web browser. A website typically consists of many web pages linked together under a common domain name.*
+
+
+## [What is a website?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+To understand the definition of a website, we must know what a **webpage** is...
+
+<br>
+
+*A **webpage** is a document on the Web that is accessed in a web browser. A website typically consists of many web pages linked together under a common domain name.*
+
+<br> 
+
+*A **website** (also written as a web site) is one or more web pages and related content that is identified by a common domain name and published on at least one web server.*
+
+
+
+## [What is a website?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<br><br>
+
+![](imgs/pages.jpeg)
+
+:::
+
+::: {.column width='50%'}
+
+![](imgs/book.jpg)
+
+:::
+
+::::
+
+## [Static websites]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+A static website is one that has Web pages stored on the server in the format that is sent to a client Web browser
+
+
+## [Static websites]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+A static website is one that has Web pages stored on the server in the format that is sent to a client Web browser
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<br>
+
+![](imgs/skelly-website.png)
+
+:::
+
+::: {.column width='50%'}
+
+![](imgs/klinges-website.png)
+
+:::
+
+::::
+
+
+
+## [Dynamic websites]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+A dynamic website is one that changes or customizes itself frequently and automatically
+
+
+## [Dynamic websites]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+A dynamic website is one that changes or customizes itself frequently and automatically
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<br>
+
+![](imgs/amazon.png)
+
+:::
+
+::: {.column width='50%'}
+
+<center>
+
+![](imgs/forecast.mov){width=43%}
+
+</center>
+
+:::
+
+::::
+
+
+## [Why should we build one (academic)?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br><br>
+
+*It provides a centralized platform to showcase your **research, teaching activities, publications, and professional profile** in a way that is completely customizable, allowing you to present your work comprehensively and professionally, increasing visibility and enhancing your academic brand within your field.*
+
+
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<center>
+![](imgs/html.png){width=30%}
+</center>
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<center>
+![](imgs/html.png){width=30%}
+</center>
+
+**Hypertext Markup Language (HTML)** is the standard markup language[a] for documents designed to be displayed in a web browser
+
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<center>
+![](imgs/css.png){width=24%}
+</center>
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<center>
+![](imgs/css.png){width=24%}
+</center>
+
+It is often assisted by technologies such as **Cascading Style Sheets (CSS)** and scripting languages such as JavaScript, a programming language
+
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<br><br>
+<center>
+![](imgs/hugo.png)
+</center>
+
+- Hugo is one of the most popular open-source static site generators
+
+:::
+
+::: {.column width='50%'}
+
+<br><br>
+<center>
+![](imgs/R.png){width='50%'}
+</center>
+
+- R is a free software for statistical computing and graphics
+
+:::
+
+::::
+
+
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br>
+
+<center>
+![](imgs/github.png){width=20%}
+</center>
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br>
+
+<center>
+![](imgs/github.png){width=20%}
+</center>
+
+**GitHub** is a proprietary developer platform that allows developers to create, store, manage, and share their code.
+
+
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br>
+
+<center>
+![](imgs/netlify.png){width=40%}
+</center>
+
+## [Which tools are used to build websites?]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br>
+
+<center>
+![](imgs/netlify.png){width=40%}
+</center>
+
+
+**Netlify** is a remote-first cloud computing company that offers a development platform that pushes your ideas to the Web.
+
+# [Let's build our own]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+## [Building a webpage with HTML and CSS]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br><br>
+
+```{code-block-background: true}
+
+<!DOCTYPE html>
+<head>
+  <style>
+
+	
+  </style>
+</head>
+<body>
+
+  
+</body>
+</html>
+
+
+```
+
+
+## [Building a webpage with Hugo and R]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br><br>
+
+```{code-block-background: true}
+
+## Libraries
+
+library(blogdown)
+library(rmarkdown)
+
+
+## Automatically generate and serve a built-in website
+
+
+blogdown::install_hugo()
+blogdown::new_site(theme = 'HugoBlox/theme-academic-cv')
+
+
+blogdown::serve_website()
+blogdown::check_site()
+
+```
+
+
+## [Useful resources]{style='color:purple;font-family: Comic Sans MS;font-weight:normal'}
+
+<br><br>
+
+[Learn to Code](https://www.w3schools.com/default.asp) <br>
+
+[blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
+
+[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
+
+[Beyond Microsoft Series](https://www.youtube.com/@asnamnat9152/shorts)
+

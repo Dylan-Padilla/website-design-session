@@ -1,0 +1,24 @@
+---
+title: 'New insights into the Evolution of Foraging Behavior and the Life History'
+author: "<br>Dylan Padilla<br><img src='imgs/yale-logo.png' width=500px height=250/><br>"
+institute: "<br>Yale School of the Environment<br>Yale Institute for Biospheric Studies<br>New Haven, Connecticut"
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    logo: imgs/asu_logo.png
+    footer: "🔗 [https://dylanpadilla.netlify.app/](https://dylanpadilla.netlify.app/)"
+    slide-number: true
+    multiplex: true
+    theme: [simple, assets/monash.scss]
+    show-slide-number: all
+    controls: true
+    width: 1280
+    height: 720
+    css: [assets/syntax-highlight.css, assets/custom.css, assets/pacman.css]
+    header-includes: |
+      <link rel="stylesheet" href="">
+execute:
+  echo: true
+---
+
